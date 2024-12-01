@@ -1,6 +1,7 @@
  # Food101 Image Classification & Nutritional Information App
 
 This repository implements a food classification application using a pre-trained model on the **Food101 dataset**. The model classifies food images into 101 different categories and provides nutritional information for the predicted food. It uses TensorFlow's InceptionV3 model architecture and allows users to test food classification by providing images of food items.
+![image](https://github.com/user-attachments/assets/1c92f31f-150f-4685-8929-3d47f524248b)
 
 ## Dataset Information
 
@@ -17,10 +18,7 @@ In this project, an additional CSV file is used to provide nutritional informati
 
 ## Project Structure
 
-The project is organized as follows:
-```
-Food-APP/ ├── .ipynb_checkpoints/ # Jupyter notebook checkpoint files (auto-generated) ├── images/ # Folder containing test images │ ├── chickenwings.jpg │ ├── clubsandwich.jfif │ ├── donuts.jfif │ └── ... ├── food-101.ipynb # Notebook for training the model ├── food-app.ipynb # Main application for food classification and nutrient info ├── food-nutrients.csv # Nutritional information for food dishes ├── inception_food101.h5 # Pre-trained model (InceptionV3) └── README.md # This file
-```
+
 
 ### Key Files
 ```
