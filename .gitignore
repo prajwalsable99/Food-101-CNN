@@ -1,0 +1,26 @@
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the large model file
+inception_food101.h5
+
+# Ignore dataset files if you don't want to upload them
+images/        # Uncomment if you have the raw dataset directory
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
